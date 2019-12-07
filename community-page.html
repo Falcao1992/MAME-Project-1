@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="There is the best team">
+    <meta name="description" content="The site of the life of MAME">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Communauté</title>
+    <link rel="stylesheet" href="styleProjet.css">
+</head>
+<body>
+    <header class= "header-communaute">
+            <a href="index.html"><img class="logo" src="https://image.noelshack.com/fichiers/2019/38/3/1568812958-logo.png" alt="logo mame"></a>
+            <a href="index.html"><img class="logoRouge" src="https://image.noelshack.com/fichiers/2019/38/3/1568816876-logo.png" alt="logo mame"></a>
+        <nav>
+            <button class="nav__burger">
+                <div class="burgerColor"></div>
+                <div class="burgerColor"></div>
+                <div class="burgerColor"></div>
+            </button>
+                   
+            <ul class="nav__list">
+                <li class="lien--"><a href="about_us.html">Qui sommes-nous?</a></li>
+                <li class="lien--"><a href="mam.html">Mam'genda</a></li>
+                <li class="lien--"><a href="community-page.html">Communauté</a></li>
+                <li class="lien--"><a href="index.html#contacte">Contact</a></li>
+            </ul>                 
+        </nav>
+        
+        
+    </header>    
+    <h1 class= "h1-communaute">Annuaire de la communauté MAME</h1>
+<p> Accélérateurs, incubateurs, pépinières, pôles, experts, écoles, fab Labs, financeurs,Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quisquam molestias voluptatum temporibus qui voluptas quaerat molestiae assumenda architecto. Sapiente sequi beatae ad culpa officia facilis amet ab cupiditate maiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minus maiores corrupti ducimus assumenda adipisci, architecto possimus temporibus non ea nisi porro consequuntur natus omnis sed error ad distinctio magnam?loren
+    
+</p>
+<br>
+<h2 class= "h2-communaute">Start-ups:</h2>
+        <ul>
+                <li class="accelerateurs"><img class="logo1-communaute"src="https://www.badak.fr/img/badak-logo-orange-sans-tagline-RVB.svg"><a href="https://www.badak.fr/">Badak</a> (bureau 167 - Etage 1)</li>
+                <li class="accelerateurs"><img class="logo1-communaute"src="https://le-cercle-digital.fr/assets/uploads/Logo-Edition-Formation-Communication.png"><a href="https://le-cercle-digital.fr/Cercle digital">le cercle digital</a> (bureau 245 - Etage 2)</li>
+                <li class="accelerateurs"><img class="logo1-communaute"src="https://www.ledigitalpme.fr/assets/components/phpthumbof/cache/20190603-100647_migx_ack.d2cf78c723a9ef899896109e22c2a75c.png"><a href="https://www.lamobilery.fr/">La mobilery</a> (Bureau 178 - Etage 1)</li>
+              </ul>
+    
+<br>
+<h2 class= "h2-communaute">Incubateurs:</h2>
+<ul>
+        <li class="accelerateurs"><img class="logo1-communaute"src="https://pbs.twimg.com/profile_images/981945365149732864/LsrUDlFZ_400x400.jpg"><a href="http://www.lincubateurdupatrimoine.fr/">L'incubateur du patrimoine</a> (Bureau 78 - Atelier)</li>
+        <li class="accelerateurs"><img class="logo1-communaute"src="https://upload.wikimedia.org/wikipedia/fr/thumb/e/e3/Universit%C3%A9_de_Tours_%28logo_2017%29.png/800px-Universit%C3%A9_de_Tours_%28logo_2017%29.png"><a href="https://www.univ-tours.fr/">Université de François Rabelais</a> (Bureau 45 - Atelier)</li>
+    
+      </ul>
+
+
+<h2 class= "h2-communaute">Ecoles:</h2>
+<ul>
+        <li class="accelerateurs"><img class="logo1-communaute" src="https://upload.wikimedia.org/wikipedia/fr/e/e4/WildCodeSchool_logo_pink_background_400x220.png"><a href="https://www.wildcodeschool.com/fr-FR/campus/tours"> Wild Code School</a> (Bureau 167 - Etage 1)</li>
+       
+      </ul>
+<h2 class= "h2-communaute">Financeurs:</h2>
+<ul>
+        <li class="accelerateurs"><img class="logo1-communaute" src="https://www.cbanque.com/i/media/03i/003631iea4.jpg"><a href="https://www.caisse-epargne.fr/particuliers">Caisse d'Epargne</a> (Bureau 76 - Atelier)</li>
+        <li class="accelerateurs"><img class="logo1-communaute" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Cr%C3%A9dit_Agricole.svg/800px-Cr%C3%A9dit_Agricole.svg.png"><a href="https://www.credit-agricole.fr/">Crédit Agricole</a> (Bureau 45 - Atelier)</li>
+ 
+      </ul>
+
+
+<h1 class= "h1-communaute">
+    Plan des Bureaux
+</h1>
+<br>
+
+<img class="plan" src="https://www.shoppingcentrenews.com.au/wp-content/uploads/2017/07/floorplan_Map_Shopping_Centre_News.jpg">
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelector('.nav__burger').addEventListener('click', (e) => {
+            const $burger = e.currentTarget;
+            const $list = $burger.parentElement.querySelector('.nav__list');
+            $burger.classList.toggle('nav__burger--active');
+            $list.classList.toggle('nav__list--active');
+        });
+    })
+    </script>
+      
+</body>
+<footer>
+    <div>
+        <a class="lien-footer" href="about_us.html"><p>Qui sommes-nous?</p></a>
+        <a class="lien-footer" href="mam.html"><p>Mam'genda</p></a>
+        <a class="lien-footer" href="community-page.html"><p>Communauté</p></a>
+        <a class="lien-footer" href="indexcontact.html"><p>Contact</p></a>
+    </div>
+    
+    <div class="cont-logo">
+        <a href="https://fr-fr.facebook.com/mametours/"><img class="item-footer" src="https://files.slack.com/files-pri/T6SG2QGG2-FNMC8LVU6/iconfinder_facebook_194929__1_.png" alt=""></a>
+        <a href="https://www.twitter.com"><img class="item-footer" src="https://files.slack.com/files-pri/T6SG2QGG2-FNMC8LW2J/iconfinder_twitter_194909.png" alt=""></a>
+        <a href="https://www.instagram.com/mame_tours/"><img class="item-footer" src="https://files.slack.com/files-pri/T6SG2QGG2-FNJMX602Y/iconfinder_intsagram_194923.png" alt=""></a>
+    </div>
+</footer>
+
+</html>
